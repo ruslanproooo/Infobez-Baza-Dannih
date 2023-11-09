@@ -117,3 +117,75 @@ if a == 2:
     print('29')
 if a == 4 or a == 9 or a == 11 or a == 6:
     print('30')
+  Цветовой микшер
+a = input()
+b = input()
+if (a == 'красный' and b == 'синий') or (a =='синий' and b == 'красный'):
+    print('фиолетовый')
+if (a == 'красный' and b == 'желтый') or (a == 'желтый' and b == 'красный'):
+    print('оранжевый')
+if (a == 'синий' and b == 'желтый') or (a == 'желтый' and b == 'синий'):
+    print('зеленый')
+else:
+    print('Ошибка')
+  Цвета колеса рулетки
+a = int(input())
+if a < 0 or a > 36:
+    print('ошибка ввода')
+elif a == 0:
+    print('зеленый')
+elif (1 <= a <= 10) or (19 <= a <= 28):
+    if a % 2 == 0:
+        print('черный')
+    else:
+        print('красный')
+elif (11 <= a <= 18) or (29 <= a <= 36):
+    if a % 2 == 0:
+        print('красный')
+    else:
+        print('черный')
+  Пересечение отрезков
+a1, b1, a2, b2 = int(input()), int(input()), int(input()), int(input())
+if a2 < a1:
+    print(b1, a1)
+if b2 < a1:
+    print('Пустое множество')
+elif b2 == a1:
+    print(b2)
+elif a1 < b2 <= b1:
+    print(a1, b2)
+elif b2 > b1:
+    print(a1, b1)
+elif a2 == a1:
+    if b2 <= b1:
+        print(a2, b2)
+    else:
+        print(a2, b1)
+elif a2 < b1:
+    if b2 <= b1:
+        print(a2, b2)
+    else:
+        print(a2, b1)
+elif a2 == b1:
+    print(a2)
+else:
+    print('Пустое множество')
+  Самописный калькулятор
+a = int(input())
+b = int(input())
+c = input()
+if c == '+':
+    print(a + b)
+if c == '-':
+    print(a - b)
+if c == '*':
+    print(a * b)
+if c == '/' and b != 0:
+    print(a / b)
+if c == '/' and b == 0:
+    print('На ноль делить нельзя')
+    Контрольная работа
+1. print()
+2. print('Поэма "Мертвые души" одна из самых интересных')
+  print('I'm 16 and I'm from Northern Ireland.')
+  print("3.1415")
