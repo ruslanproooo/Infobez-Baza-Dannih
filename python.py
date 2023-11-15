@@ -189,3 +189,30 @@ if c == '/' and b == 0:
 2. print('Поэма "Мертвые души" одна из самых интересных')
   print('I'm 16 and I'm from Northern Ireland.')
   print("3.1415")
+  print()
+3. print('Python', 'is the best', '!!')
+4. print("The world's a little blurry", "Or maybe it's my eyes", end='!!!', sep=':)')
+  print("Honey, what's your hurry", end='?')
+  print("Told you not to worry", "But maybe that's a lie" sep=':)')
+5. input()
+6. n = int(input())
+7. - Имя переменной может начинаться с символа подчеркивания (_)
+    - Имя переменной не может начинаться с цифры
+    - Имя переменной не может совпадать с ключевым (зарезерврованным) словом
+8. 60
+9. 56
+10. print('*****************')
+    print('*               *')
+    print('*               *')
+    print('*****************')
+11. a = int(input())
+    b = int(input())
+    x = (a + b) ** 2
+    y = a ** 2 + b ** 2
+    print('Квадрат суммы', a, 'и', b, 'равен', x)
+    print('Сумма квадратов', a, 'и', b, 'равна', y)
+12. a = int(input())
+    b = int(input())
+    c = int(input())
+    d = int(input())
+    print(a ** b + c ** d)
