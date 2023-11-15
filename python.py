@@ -216,3 +216,7 @@ if c == '/' and b == 0:
     c = int(input())
     d = int(input())
     print(a ** b + c ** d)
+13. n = int(input())
+    nn = n * 10 + n
+    nnn = n * 100 + n * 10 + n
+    print(n + nn + nnn)
