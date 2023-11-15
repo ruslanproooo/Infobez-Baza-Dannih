@@ -220,3 +220,26 @@ if c == '/' and b == 0:
     nn = n * 10 + n
     nnn = n * 100 + n * 10 + n
     print(n + nn + nnn)
+            Модуль 3
+      Площадь треугольника
+a = int(input())
+b = int(input())
+s = 1/2 * a * b
+print(s)
+      Две старушки
+S = float(input())
+V1 = float(input())
+V2 = float(input())
+t = S / (V1 + V2)
+print(t)
+      Обратное число
+a = float(input())
+if a == 0:
+    print('Обратного числа не существует')
+else:
+    b = a ** -1
+    print(b)
+      451 градус по Фаренгейту
+F = float(input())
+C = (5 / 9) * (F - 32)
+print(C)
