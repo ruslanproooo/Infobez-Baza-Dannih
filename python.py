@@ -304,4 +304,37 @@ print('"Python is a great language!", said Fred. I do not ever remember having t
 a = input()
 b = input()
 print('Hello', a, b, '!', 'You have just delved into Python')
-      
+      Футбольная команда
+a = input()
+print('Футбольная команда', a, 'имеет длину', len(a), 'символов')
+      Три города
+a = input()
+b = input()
+c = input()
+x = len(a)
+y = len(b)
+n = len(c)
+if x == min(x,y,n):
+    print(a)
+elif y == min(x,y,n):
+    print(b)
+else:
+    print(c)
+if x == max(x,y,n):
+    print(a)
+elif y == max(x,y,n):
+    print(b)
+else:
+    print(c)
+      Пол и потолок
+a = float(input())
+x = abs(a) + abs(a)
+print(int(x))
+      Арифметичесские строки
+a = len(input())
+b = len(input())
+c = len(input())
+if a + b + c == (max(a,b,c) + min(a,b,c)) // 2 * 3:
+    print('YES')
+else:
+    print('NO')
