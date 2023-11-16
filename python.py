@@ -274,4 +274,21 @@ y = (a + b + c - x - n)
 print(x)
 print(y)
 print(n)
+      Интересное число
+a = int(input())
+x = a // 100
+y = (a - (x * 100)) // 10
+n = a - ((x * 100) + (y * 10))
+if max(x,y,n) - min(x,y,n) == (x + y + n) - max(x,y,n) - min(x,y,n):
+    print('Число интересное')
+else:
+    print('Число неинтересное')
+      Абсолютная сумма
+a1 = float(input())
+a2 = float(input())
+a3 = float(input())
+a4 = float(input())
+a5 = float(input())
+x = abs(a1) + abs(a2) + abs(a3) + abs(a4) + abs(a5)
+print(x)
       
