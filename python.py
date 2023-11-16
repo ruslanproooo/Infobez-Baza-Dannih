@@ -291,4 +291,17 @@ a4 = float(input())
 a5 = float(input())
 x = abs(a1) + abs(a2) + abs(a3) + abs(a4) + abs(a5)
 print(x)
+      Манхэттенское движение
+p1 = int(input())
+p2 = int(input())
+q1 = int(input())
+q2 = int(input())
+x = abs(p1 - q1) + abs(p2 - q2)
+print(x)
+      Неизвестное название задания
+print('"Python is a great language!", said Fred. I do not ever remember having this much fun before."')
+      What's Your Name?
+a = input()
+b = input()
+print('Hello', a, b, '!', 'You have just delved into Python')
       
