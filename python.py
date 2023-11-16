@@ -338,3 +338,21 @@ if a + b + c == (max(a,b,c) + min(a,b,c)) // 2 * 3:
     print('YES')
 else:
     print('NO')
+      Евклидово расстояние
+x1 = float(input())
+y1 = float(input())
+x2 = float(input())
+y2 = float(input())
+p = ((x1 - x2) ** 2 + (y1- y2) ** 2) ** 0.5
+print(p)
+      Средние значения
+a = float(input())
+b = float(input())
+y = (a + b) / 2
+x = (a * b) ** 0.5
+z = (2 * a * b) / (a + b)
+c = ((a ** 2 + b ** 2) / 2) ** 0.5
+print(y)
+print(x)
+print(z)
+print(c)
