@@ -243,3 +243,35 @@ else:
 F = float(input())
 C = (5 / 9) * (F - 32)
 print(C)
+      Dog age
+a = int(input())
+if a <= 2:
+    print(a * 10.5)
+else:
+    print(a * 4)
+      Первая цифра после точки
+a = float(input())
+x = (a * 10) % 10
+print(int(x))
+      Дробная часть
+a = float(input())
+x = a - int(a)
+print(x)
+      Наименьшее и наибольшееa = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+print('Наименьшее число = ', (min(a,b,c,d,e)))
+print('Наибольшее число = ', (max(a,b,c,d,e)))
+      Сортировка трех
+a = int(input())
+b = int(input())
+c = int(input())
+x = max(a,b,c)
+n = min(a,b,c)
+y = (a + b + c - x - n)
+print(x)
+print(y)
+print(n)
+      
