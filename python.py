@@ -257,7 +257,8 @@ print(int(x))
 a = float(input())
 x = a - int(a)
 print(x)
-      Наименьшее и наибольшееa = int(input())
+      Наименьшее и наибольшее
+a = int(input())
 b = int(input())
 c = int(input())
 d = int(input())
@@ -356,3 +357,39 @@ print(y)
 print(x)
 print(z)
 print(c)
+      Цвет настроения синий
+a = input()
+if ('синий') in a:
+    print('YES')
+else:
+    print('NO')
+      Отдаыхаем ли?
+a = input()
+if ('суббота') in a or ('воскресенье') in a:
+    print('YES')
+else:
+    print('NO')
+      Корректный email
+a = input()
+if '@' in a and '.' in a:
+    print('YES')
+else:
+    print('NO')
+      Площадь и длина
+import math
+
+a = float(input())
+x = math.pi
+S = x * a ** 2
+C = 2 * x * a
+print(S)
+print(C)
+      Тригонеметрическое выражение
+import math
+
+x = int(input())
+Pi = math.pi
+r = x * Pi / 180
+tr = math.sin(r) + math.cos(r) + math.tan(r) ** 2
+print(tr)
+      
